@@ -1,0 +1,21 @@
+.hover-shadow {
+    transition: box-shadow 0.3s;
+    border-radius: 4px; /* Optional: if you want rounded corners */
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); /* Adjust shadow to your preference */
+  }
+
+  
+.games-section-title {
+    color: #ffffff; /* Ensures text is white */
+    text-align: center; /* Center align the text */
+    width: 100%; /* Makes sure the h1 occupies the full container width */
+    margin: auto; /* Helps in centering if needed */
+}
+
+/* This ensures the navbar containing the GAMES title is full width and centered */
+.navbar.text-center {
+    justify-content: center; /* Center the items in the navbar */
+}
